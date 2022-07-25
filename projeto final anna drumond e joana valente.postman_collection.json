@@ -1,0 +1,381 @@
+{
+	"info": {
+		"_postman_id": "b0a69c83-74cd-4cb7-9cb0-630901d2c098",
+		"name": "projeto final anna drumond e joana valente",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "forum",
+			"item": [
+				{
+					"name": "new forum post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\":\"NECESSITY\",\r\n    \"description\":\"oi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/adrumond-jvalente-backend/rest/forum/vihalev482@dufeed.com/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"adrumond-jvalente-backend",
+								"rest",
+								"forum",
+								"vihalev482@dufeed.com",
+								"new"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "projects",
+			"item": [
+				{
+					"name": "new project",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"ui\",\r\n    \"description\":\"uii\",\r\n    \"necessaryResources\":\"uiii\",\r\n    \"executionPlan\":\"uiiii\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/adrumond-jvalente-backend/rest/projects/vihalev482@dufeed.com/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"adrumond-jvalente-backend",
+								"rest",
+								"projects",
+								"vihalev482@dufeed.com",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add project to user favorites",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/adrumond-jvalente-backend/rest/projects/vihalev482@dufeed.com/likes/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"adrumond-jvalente-backend",
+								"rest",
+								"projects",
+								"vihalev482@dufeed.com",
+								"likes",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "skill",
+			"item": [
+				{
+					"name": "new skill",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"ui\",\r\n    \"skillType\":\"KNOWLEDGE\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/adrumond-jvalente-backend/rest/skills/vihalev482@dufeed.com/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"adrumond-jvalente-backend",
+								"rest",
+								"skills",
+								"vihalev482@dufeed.com",
+								"new"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "interest",
+			"item": [
+				{
+					"name": "new interest",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"ui\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/adrumond-jvalente-backend/rest/interest/vihalev482@dufeed.com/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"adrumond-jvalente-backend",
+								"rest",
+								"interest",
+								"vihalev482@dufeed.com",
+								"new"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "comment",
+			"item": [
+				{
+					"name": "new comment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"ui\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/adrumond-jvalente-backend/rest/interest/vihalev482@dufeed.com/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"adrumond-jvalente-backend",
+								"rest",
+								"interest",
+								"vihalev482@dufeed.com",
+								"new"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "register user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\":\"Gil\",\r\n    \"lastName\":\"Valente\",\r\n    \"password\":\"123\",\r\n    \"email\":\"vihalev482@dufeed.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/adrumond-jvalente-backend/rest/users/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"adrumond-jvalente-backend",
+						"rest",
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reset user password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/adrumond-jvalente-backend/rest/users/reset/vihalev482@dufeed.com/password",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"adrumond-jvalente-backend",
+						"rest",
+						"users",
+						"reset",
+						"vihalev482@dufeed.com",
+						"password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upgrade to standard user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/adrumond-jvalente-backend/rest/users/promote/vihalev482@dufeed.com/standard",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"adrumond-jvalente-backend",
+						"rest",
+						"users",
+						"promote",
+						"vihalev482@dufeed.com",
+						"standard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/adrumond-jvalente-backend/rest/users/promote/vihalev482@dufeed.com/standard",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"adrumond-jvalente-backend",
+						"rest",
+						"users",
+						"promote",
+						"vihalev482@dufeed.com",
+						"standard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/adrumond-jvalente-backend/rest/users/promote/vihalev482@dufeed.com/standard",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"adrumond-jvalente-backend",
+						"rest",
+						"users",
+						"promote",
+						"vihalev482@dufeed.com",
+						"standard"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
